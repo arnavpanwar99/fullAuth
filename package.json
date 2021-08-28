@@ -1,0 +1,21 @@
+{
+  "name": "trade",
+  "version": "1.0.0",
+  "description": "trading api",
+  "main": "server.js",
+  "author": "arnav",
+  "license": "MIT",
+  "scripts": {
+    "watch": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.8",
+    "nodemailer": "^6.6.3"
+  }
+}
